@@ -1,6 +1,7 @@
 function getFormvalue() {
-    Fname=getElementByTagName("fname").value;
-	Lname=getElementByTagName("lname").value;
+    var Fname=document.querySelector('input["fname"]').value;
+	var Lname=document.querySelector('input["lname"]').value;
+	alert(Fname +" " +Lname);}
 	
 
 }
