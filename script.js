@@ -1,4 +1,6 @@
 function getFormvalue() {
-    //Write your code here
+    Fname=getElementByTagName("fname").value;
+	Lname=getElementByTagName("lname").value;
+	
 
 }
