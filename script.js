@@ -1,3 +1,6 @@
+
+
+
 function getFormvalue(event) {
 	event.preventDefault();
     var Fname=document.querySelector('input[name="fname"]').value;
